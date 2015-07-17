@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "description": "Quick Simple example of request, promise, and modules",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "bunyan": "^1.4.0",
+    "lodash": "^3.10.0",
+    "request": "^2.58.0"
+  },
+  "scripts": {
+    "index": "node index.js | bunyan"
+  }
+}
